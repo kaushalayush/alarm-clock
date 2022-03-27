@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "./styles.css"></style>
+    <title>Alarm Clock</title>
+</head>
+<body>
+    <section id = "set-alarm-div">
+
+        <!-- Clock showing the current time and updating each second -->
+        <div id = "display">
+
+        </div>
+
+        <h2 id = "set-alarm-heading">Set Alarm (24-hour format)</h2> 
+        <input type = "number" id = "a-hours" name = "a-hours" placeholder="HH" max = "23" min = "00"> :
+        <input type = "number" id = "a-minutes" name = "a-minutes" placeholder="MM" max = "59" min = "00"> :
+        <input type = "number" id = "a-seconds" name = "a-seconds" placeholder="SS" max = "59" min = "00">
+        
+        <br> <br>
+
+        <button id = "set-alarm-btn"> 
+            Set Alarm
+        </button>
+
+    </section>
+
+    <hr>
+
+    <!-- Div containing all the alarms set till now -->
+    <div id="alarm-list">
+
+    </div>
+
+
+    <script src = "index.js"></script>
+</body>
+</html>
